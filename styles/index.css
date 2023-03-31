@@ -54,7 +54,7 @@
     .top_section {
         padding-top: 100px;
         padding-bottom: 100px;
-        background-image: url('/images/book on table (2).jpg');
+        background-image: url('./images/book on table (2).jpg');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 0 30%;
@@ -72,7 +72,7 @@
     .bottom_section {
         padding-top: 100px;
         padding-bottom: 100px;
-        background-image: url('/images/desert\ sand.jpg');
+        background-image: url('./images/desert\ sand.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 0 20%;
@@ -274,7 +274,7 @@
     .top_section {
         padding-top: 100px;
         padding-bottom: 100px;
-        background-image: url('/images/book on table (3).jpg');
+        background-image: url('./images/book on table (3).jpg');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 35% 0%;
@@ -291,7 +291,7 @@
     .bottom_section {
         padding-top: 100px;
         padding-bottom: 100px;
-        background-image: url('/images/desert\ sand.jpg');
+        background-image: url('./images/desert\ sand.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         background-position: 0 20%;
