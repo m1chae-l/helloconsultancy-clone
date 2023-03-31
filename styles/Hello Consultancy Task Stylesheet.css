@@ -1,0 +1,440 @@
+@media only screen and (min-width: 851px) {
+
+    /*laptop*/
+    body {
+        margin: 0;
+        font-family: bahnschrift;
+    }
+
+    /* nav bar */
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: white;
+        position: fixed;
+        top: 0;
+        /*reason nav bar sticks to top*/
+        width: 100%;
+    }
+
+    .head {
+        float: left;
+        margin-left: 10%;
+        padding: 10px;
+    }
+
+    .navs {
+        margin-right: 10%;
+        padding: 10px;
+    }
+
+    .navs>li {
+        float: right;
+    }
+
+    li a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 8px 16px;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        color: gray;
+    }
+
+    .active {
+        color: black;
+    }
+
+    /*text centered in the image*/
+    .top_section {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background-image: url('/images/book on table (2).jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 0 30%;
+        /*the positioning of the background*/
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 300px;
+        width: 100%;
+        color: black;
+        margin: 0;
+    }
+
+    .bottom_section {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background-image: url('/images/desert\ sand.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 0 20%;
+        /*the positioning of the background*/
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 120px;
+        width: 100%;
+    }
+
+    /* buttons */
+    .button {
+        padding: 11px 20px 11px 20px;
+        text-align: center;
+        border: none;
+        color: white;
+        border-radius: 5px;
+        background-color: rgb(151, 43, 102);
+        cursor: pointer;
+        font-size: 15px;
+        transition: all .3s ease-in-out;
+    }
+
+    .button:hover {
+        color: rgb(151, 43, 102);
+        background-color: white;
+    }
+
+    .button2 {
+        background-color: white;
+        color: rgb(151, 43, 102);
+        padding: 8px 13px 8px 13px;
+        /*top right bottom left*/
+        text-align: center;
+        border: 1px solid rgb(151, 43, 102);
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 15px;
+        transition: all .3s ease-in-out;
+        /* for transition effect on the button hover*/
+    }
+
+    .button2:hover {
+        color: white;
+        background-color: rgb(151, 43, 102);
+    }
+
+    .button3 {
+        background-color: rgb(241, 87, 31);
+        color: white;
+        text-decoration: none;
+        padding: 10px 13px 10px 13px;
+        /*top right bottom left*/
+        margin-top: 20px;
+        text-align: center;
+        border: 1px solid rgb(241, 87, 31);
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 15px;
+        font-family: OCR A Extended;
+        transition: all .3s ease-in-out;
+        /* for transition effect on the button hover*/
+    }
+
+    .button3:hover {
+        color: rgb(241, 87, 31);
+        background-color: white;
+    }
+
+    /* the text in the image styling */
+    h1.one {
+        font-weight: lighter;
+        font-size: 50px;
+        margin-bottom: 0px;
+    }
+
+    p.one {
+        font-size: 20px;
+    }
+
+    .flex-container {
+        display: flex;
+        flex-direction: row;
+        background-color: transparent;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+        width: 100%;
+        margin: 0px;
+        padding: 0;
+    }
+
+    .flex-container>div {
+        background-color: transparent;
+        color: black;
+        width: 350px;
+        height: 400;
+        margin: 10px;
+        text-align: center;
+        border-radius: 4px 4px 4px 4px;
+        /*left top right top left bottom right bottom*/
+        border: 1px solid rgb(196, 193, 193);
+    }
+
+    div.buttonpad {
+        padding: 15px;
+    }
+
+    h1.services {
+        color: rgb(70, 68, 68);
+        text-align: center;
+        font-weight: lighter;
+        padding: 0;
+        margin-bottom: 0;
+    }
+
+    h1.two {
+        font-size: 40px;
+        margin-bottom: 30px;
+        text-align: center;
+    }
+
+    p.two {
+        font-size: 20px;
+        margin-bottom: 30px;
+        text-align: center;
+        overflow: wrap;
+    }
+
+    div.footer {
+        text-align: center;
+    }
+
+    .image {
+        height: 200px;
+        width: 350px;
+    }
+
+    div.text {
+        height: 150px;
+        border-bottom: 1px solid rgb(196, 193, 193);
+    }
+}
+
+@media only screen and (max-width: 850px) {
+
+    /*mobile/tab*/
+    body {
+        margin: 0;
+        font-family: bahnschrift;
+    }
+
+    /* nav bar */
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: white;
+        position: fixed;
+        top: 0;
+        /*reason nav bar sticks to top*/
+        width: 100%;
+    }
+
+    .head {
+        justify-content: center;
+        padding: 10px;
+        width: 100%;
+    }
+
+    .navs {
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: center;
+        padding: 10px;
+        width: 100%;
+    }
+
+    li a {
+        display: block;
+        color: black;
+        text-align: center;
+        padding: 8px 16px;
+        text-decoration: none;
+    }
+
+    li a:hover {
+        color: gray;
+    }
+
+    .active {
+        color: black;
+    }
+
+    /*text centered in the image*/
+    .top_section {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background-image: url('/images/book on table (3).jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 35% 0%;
+        /*the positioning of the background*/
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 300px;
+        width: 100%;
+        margin: 0;
+    }
+
+    .bottom_section {
+        padding-top: 100px;
+        padding-bottom: 100px;
+        background-image: url('/images/desert\ sand.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: 0 20%;
+        /*the positioning of the background*/
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        height: 120px;
+        width: 100%;
+    }
+
+    /* buttons */
+    .button {
+        padding: 11px 20px 11px 20px;
+        text-align: center;
+        border: none;
+        color: white;
+        border-radius: 5px;
+        background-color: rgb(151, 43, 102);
+        cursor: pointer;
+        font-size: 15px;
+        transition: all .3s ease-in-out;
+    }
+
+    .button:hover {
+        color: rgb(151, 43, 102);
+        background-color: white;
+    }
+
+    .button2 {
+        background-color: white;
+        color: rgb(151, 43, 102);
+        padding: 8px 13px 8px 13px;
+        /*top right bottom left*/
+        text-align: center;
+        border: 1px solid rgb(151, 43, 102);
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 15px;
+        transition: all .3s ease-in-out;
+        /* for transition effect on the button hover*/
+    }
+
+    .button2:hover {
+        color: white;
+        background-color: rgb(151, 43, 102);
+    }
+
+    .button3 {
+        background-color: rgb(241, 87, 31);
+        color: white;
+        text-decoration: none;
+        padding: 10px 13px 10px 13px;
+        /*top right bottom left*/
+        margin-top: 20px;
+        text-align: center;
+        border: 1px solid rgb(241, 87, 31);
+        border-radius: 5px;
+        cursor: pointer;
+        font-size: 15px;
+        font-family: OCR A Extended;
+        transition: all .3s ease-in-out;
+        /* for transition effect on the button hover*/
+    }
+
+    .button3:hover {
+        color: rgb(241, 87, 31);
+        background-color: white;
+    }
+
+    /* the text in the image styling */
+    h1.one {
+        text-align: center;
+        font-weight: lighter;
+        font-size: 30px;
+        margin-bottom: 0px;
+    }
+
+    p.one {
+        text-align: center;
+        font-size: 15px;
+    }
+
+    .flex-container {
+        display: flex;
+        flex-direction: column;
+        background-color: transparent;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        margin: 0px;
+        padding: 0;
+    }
+
+    .flex-container>div {
+        background-color: transparent;
+        color: black;
+        width: 350px;
+        height: 400;
+        margin: 10px;
+        text-align: center;
+        border-radius: 4px 4px 4px 4px;
+        /*left top right top left bottom right bottom*/
+        border: 1px solid rgb(196, 193, 193);
+    }
+
+    div.buttonpad {
+        padding: 15px;
+    }
+
+    h1.services {
+        color: rgb(70, 68, 68);
+        text-align: center;
+        font-weight: lighter;
+        padding: 0;
+        margin-bottom: 0;
+    }
+
+    h1.two {
+        text-align: center;
+        font-size: 35px;
+        margin-bottom: 30px;
+    }
+
+    p.two {
+        text-align: center;
+        font-size: 17px;
+        margin-bottom: 30px;
+        font-weight: bold;
+    }
+
+    div.footer {
+        text-align: center;
+    }
+
+    .image {
+        height: 200px;
+        width: 350px;
+    }
+
+    div.text {
+        height: 150px;
+        border-bottom: 1px solid rgb(196, 193, 193);
+    }
+}
